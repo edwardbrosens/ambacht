@@ -894,5 +894,13 @@ h2.price {
 	font-family: 'honeycreamregular';
 }
 
+.choose-container {
+	background-color: #f4f5ef;
+}
+
+.home-content {
+	display: none;
+}
+
 
 

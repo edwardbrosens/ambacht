@@ -2,7 +2,7 @@
 <div class="container home">
 
   <div class="row">
-    <div class="col-sm-4"><img style="float: left; vertical-align: top; margin-right: 40px !important; margin-bottom: 10px;" src="http://dev.ambacht/media/wysiwyg/bakker.jpg" alt="" width="250" height="356"></div>
+    <div class="col-sm-4"><img style="float: left; vertical-align: top; margin-right: 40px !important; margin-bottom: 10px;" src="catalog/view/theme/ambacht/image/bakker.jpg" alt="" width="250" height="356"></div>
     <div class="col-sm-7 col-sm-push-1 main-text">
       <p>Samen met lokale ambachtslieden stellen wij de allerlekkerste bedrijfslunch samen. Onze producten komen direct van de warme bakker, slager en zuivelboer en zijn echt vers, zoveel mogelijk van het seizoen en met zorg en aandacht gemaakt!</p>
       Samen met lokale ambachtslieden stellen wij de allerlekkerste bedrijfslunch samen. Onze producten komen direct van de warme bakker, slager en zuivelboer en zijn echt vers, zoveel mogelijk van het seizoen en met zorg en aandacht gemaakt!
@@ -27,7 +27,24 @@
     <?php } else { ?>
     <?php $class = 'col-sm-12'; ?>
     <?php } ?>
-    <div id="content" class="<?php echo $class; ?>"><?php echo $content_top; ?><?php echo $content_bottom; ?></div>
+    <div id="content" class="<?php echo $class; ?> home-content"><?php echo $content_top; ?><?php echo $content_bottom; ?></div>
     <?php echo $column_right; ?></div>
 </div>
+<div class="choose-container">
+  <div class="container">
+    <div class="col-sm-4 col-xs-12"><img class="img-responsive" src="catalog/view/theme/ambacht/image/werkfruit.png" alt="" width="350" height="260" />
+      <p style="text-align: center;"><a>WERKFRUIT</a></p>
+    </div>
+    <div class="col-sm-4 col-xs-12"><img class="img-responsive" src="catalog/view/theme/ambacht/image/bedrijfslunch.jpg" alt="" width="350" height="260" />
+      <p style="text-align: center;"><a>BEDRIJFSLUNCH</a></p>
+    </div>
+    <div class="col-sm-4 col-xs-12"><img class="img-responsive" src="catalog/view/theme/ambacht/image/salades.png" alt="" width="350" height="260" />
+      <p style="text-align: center;"><a>SALADES</a></p>
+    </div>
+  </div>
+</div>
+
+
+
+
 <?php echo $footer; ?>
