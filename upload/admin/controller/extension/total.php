@@ -27,7 +27,7 @@ class ControllerExtensionTotal extends Controller {
 			$this->model_user_user_group->addPermission($this->user->getGroupId(), 'access', 'total/' . $this->request->get['extension']);
 			$this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'total/' . $this->request->get['extension']);
 
-			$this->load->controller('total/' . $this->request->get['extension'] . '/install');
+			$this->load->controller('total/' . $this->request->get['extension'] . '/_install');
 
 			$this->session->data['success'] = $this->language->get('text_success');
 
@@ -125,7 +125,7 @@ class ControllerExtensionTotal extends Controller {
 					'name'       => $this->language->get('heading_title'),
 					'status'     => $this->config->get($extension . '_status') ? $this->language->get('text_enabled') : $this->language->get('text_disabled'),
 					'sort_order' => $this->config->get($extension . '_sort_order'),
-					'install'   => $this->url->link('extension/total/install', 'token=' . $this->session->data['token'] . '&extension=' . $extension, true),
+					'_install'   => $this->url->link('extension/total/_install', 'token=' . $this->session->data['token'] . '&extension=' . $extension, true),
 					'uninstall' => $this->url->link('extension/total/uninstall', 'token=' . $this->session->data['token'] . '&extension=' . $extension, true),
 					'installed' => in_array($extension, $extensions),
 					'edit'      => $this->url->link('total/' . $extension, 'token=' . $this->session->data['token'], true)

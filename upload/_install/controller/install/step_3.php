@@ -3,10 +3,10 @@ class ControllerInstallStep3 extends Controller {
 	private $error = array();
 
 	public function index() {
-		$this->language->load('install/step_3');
+		$this->language->load('_install/step_3');
 		
 		if (($this->request->server['REQUEST_METHOD'] == 'POST') && $this->validate()) {
-			$this->load->model('install/install');
+			$this->load->model('_install/_install');
 
 			$this->model_install_install->database($this->request->post);
 
@@ -83,7 +83,7 @@ class ControllerInstallStep3 extends Controller {
 
 			fclose($file);
 
-			$this->response->redirect($this->url->link('install/step_4'));
+			$this->response->redirect($this->url->link('_install/step_4'));
 		}
 
 		$this->document->setTitle($this->language->get('heading_title'));
@@ -165,7 +165,7 @@ class ControllerInstallStep3 extends Controller {
 			$data['error_email'] = '';
 		}
 
-		$data['action'] = $this->url->link('install/step_3');
+		$data['action'] = $this->url->link('_install/step_3');
 
 		if (isset($this->request->post['db_driver'])) {
 			$data['db_driver'] = $this->request->post['db_driver'];
@@ -232,13 +232,13 @@ class ControllerInstallStep3 extends Controller {
 		$data['pdo'] = extension_loaded('pdo');
 		$data['pgsql'] = extension_loaded('pgsql');
 
-		$data['back'] = $this->url->link('install/step_2');
+		$data['back'] = $this->url->link('_install/step_2');
 
 		$data['footer'] = $this->load->controller('common/footer');
 		$data['header'] = $this->load->controller('common/header');
 		$data['column_left'] = $this->load->controller('common/column_left');
 
-		$this->response->setOutput($this->load->view('install/step_3', $data));
+		$this->response->setOutput($this->load->view('_install/step_3', $data));
 	}
 
 	private function validate() {

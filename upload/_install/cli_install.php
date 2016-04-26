@@ -8,8 +8,8 @@
 //
 // Usage:
 //
-//   cd install
-//   php cli_install.php install --db_hostname localhost \
+//   cd _install
+//   php cli_install.php _install --db_hostname localhost \
 //                               --db_username root \
 //                               --db_password pass \
 //                               --db_database opencart \
@@ -72,7 +72,7 @@ function usage() {
 		'--email', 'youremail@example.com',
 		'--http_server', 'http://localhost/opencart'
 	));
-	echo 'php cli_install.php install ' . $options . "\n\n";
+	echo 'php cli_install.php _install ' . $options . "\n\n";
 }
 
 
@@ -337,7 +337,7 @@ $subcommand = array_shift($argv);
 
 switch ($subcommand) {
 
-case "install":
+case "_install":
 	try {
 		$options = get_options($argv);
 		define('HTTP_OPENCART', $options['http_server']);

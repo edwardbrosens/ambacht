@@ -27,8 +27,8 @@ class ControllerExtensionShipping extends Controller {
 			$this->model_user_user_group->addPermission($this->user->getGroupId(), 'access', 'shipping/' . $this->request->get['extension']);
 			$this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'shipping/' . $this->request->get['extension']);
 
-			// Call install method if it exsits
-			$this->load->controller('shipping/' . $this->request->get['extension'] . '/install');
+			// Call _install method if it exsits
+			$this->load->controller('shipping/' . $this->request->get['extension'] . '/_install');
 
 			$this->session->data['success'] = $this->language->get('text_success');
 
@@ -127,7 +127,7 @@ class ControllerExtensionShipping extends Controller {
 					'name'       => $this->language->get('heading_title'),
 					'status'     => $this->config->get($extension . '_status') ? $this->language->get('text_enabled') : $this->language->get('text_disabled'),
 					'sort_order' => $this->config->get($extension . '_sort_order'),
-					'install'    => $this->url->link('extension/shipping/install', 'token=' . $this->session->data['token'] . '&extension=' . $extension, true),
+					'_install'    => $this->url->link('extension/shipping/_install', 'token=' . $this->session->data['token'] . '&extension=' . $extension, true),
 					'uninstall'  => $this->url->link('extension/shipping/uninstall', 'token=' . $this->session->data['token'] . '&extension=' . $extension, true),
 					'installed'  => in_array($extension, $extensions),
 					'edit'       => $this->url->link('shipping/' . $extension, 'token=' . $this->session->data['token'], true)

@@ -31,8 +31,8 @@ class ControllerExtensionModule extends Controller {
 			$this->model_user_user_group->addPermission($this->user->getGroupId(), 'access', 'module/' . $this->request->get['extension']);
 			$this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'module/' . $this->request->get['extension']);
 
-			// Call install method if it exsits
-			$this->load->controller('module/' . $this->request->get['extension'] . '/install');
+			// Call _install method if it exsits
+			$this->load->controller('module/' . $this->request->get['extension'] . '/_install');
 
 			$this->session->data['success'] = $this->language->get('text_success');
 
@@ -169,7 +169,7 @@ class ControllerExtensionModule extends Controller {
 				$data['extensions'][] = array(
 					'name'      => $this->language->get('heading_title'),
 					'module'    => $module_data,
-					'install'   => $this->url->link('extension/module/install', 'token=' . $this->session->data['token'] . '&extension=' . $extension, true),
+					'_install'   => $this->url->link('extension/module/_install', 'token=' . $this->session->data['token'] . '&extension=' . $extension, true),
 					'uninstall' => $this->url->link('extension/module/uninstall', 'token=' . $this->session->data['token'] . '&extension=' . $extension, true),
 					'installed' => in_array($extension, $extensions),
 					'edit'      => $this->url->link('module/' . $extension, 'token=' . $this->session->data['token'], true)

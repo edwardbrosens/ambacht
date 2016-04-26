@@ -16,7 +16,7 @@ class Controller3rdPartyOpenbay extends Controller {
 		$data['button_register_us'] = $this->language->get('button_register_us');
 		$data['button_back'] = $this->language->get('button_back');
 
-		$data['back'] = $this->url->link('install/step_4');
+		$data['back'] = $this->url->link('_install/step_4');
 
 		$data['footer'] = $this->load->controller('common/footer');
 		$data['header'] = $this->load->controller('common/header');

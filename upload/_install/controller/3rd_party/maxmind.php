@@ -14,7 +14,7 @@ class Controller3rdPartyMaxmind extends Controller {
 
 			$this->session->data['success'] = $this->language->get('text_success');
 
-			$this->response->redirect($this->url->link('install/step_4'));
+			$this->response->redirect($this->url->link('_install/step_4'));
 		} 
 	
 		$data['heading_title'] = $this->language->get('heading_title');
@@ -66,7 +66,7 @@ class Controller3rdPartyMaxmind extends Controller {
 		
 		$data['order_statuses'] = $this->model_3rd_party_maxmind->getOrderStatuses();
 
-		$data['back'] = $this->url->link('install/step_4');
+		$data['back'] = $this->url->link('_install/step_4');
 
 		$data['footer'] = $this->load->controller('common/footer');
 		$data['header'] = $this->load->controller('common/header');

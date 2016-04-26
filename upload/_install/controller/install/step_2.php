@@ -3,10 +3,10 @@ class ControllerInstallStep2 extends Controller {
 	private $error = array();
 
 	public function index() {
-		$this->language->load('install/step_2');
+		$this->language->load('_install/step_2');
 		
 		if (($this->request->server['REQUEST_METHOD'] == 'POST') && $this->validate()) {
-			$this->response->redirect($this->url->link('install/step_3'));
+			$this->response->redirect($this->url->link('_install/step_3'));
 		}
 
 		$this->document->setTitle($this->language->get('heading_title'));
@@ -52,7 +52,7 @@ class ControllerInstallStep2 extends Controller {
 			$data['error_warning'] = '';
 		}
 
-		$data['action'] = $this->url->link('install/step_2');
+		$data['action'] = $this->url->link('_install/step_2');
 
 		$data['php_version'] = phpversion();
 		$data['register_globals'] = ini_get('register_globals');
@@ -94,13 +94,13 @@ class ControllerInstallStep2 extends Controller {
 		$data['upload'] = DIR_SYSTEM . 'storage/upload';
 		$data['modification'] = DIR_SYSTEM . 'storage/modification';
 
-		$data['back'] = $this->url->link('install/step_1');
+		$data['back'] = $this->url->link('_install/step_1');
 
 		$data['footer'] = $this->load->controller('common/footer');
 		$data['header'] = $this->load->controller('common/header');
 		$data['column_left'] = $this->load->controller('common/column_left');
 
-		$this->response->setOutput($this->load->view('install/step_2', $data));
+		$this->response->setOutput($this->load->view('_install/step_2', $data));
 	}
 
 	private function validate() {

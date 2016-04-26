@@ -11,7 +11,7 @@ before_install:
   - composer self-update
 
 install:
-  - composer install --prefer-source
+  - composer _install --prefer-source
 
 script:
   - phpunit -v --coverage-text

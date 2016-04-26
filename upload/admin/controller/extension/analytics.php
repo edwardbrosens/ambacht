@@ -27,8 +27,8 @@ class ControllerExtensionAnalytics extends Controller {
 			$this->model_user_user_group->addPermission($this->user->getGroupId(), 'access', 'analytics/' . $this->request->get['extension']);
 			$this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'analytics/' . $this->request->get['extension']);
 
-			// Call install method if it exsits
-			$this->load->controller('analytics/' . $this->request->get['extension'] . '/install');
+			// Call _install method if it exsits
+			$this->load->controller('analytics/' . $this->request->get['extension'] . '/_install');
 
 			$this->session->data['success'] = $this->language->get('text_success');
 
@@ -141,7 +141,7 @@ class ControllerExtensionAnalytics extends Controller {
 				
 				$data['extensions'][] = array(
 					'name'      => $this->language->get('heading_title'),
-					'install'   => $this->url->link('extension/analytics/install', 'token=' . $this->session->data['token'] . '&extension=' . $extension, true),
+					'_install'   => $this->url->link('extension/analytics/_install', 'token=' . $this->session->data['token'] . '&extension=' . $extension, true),
 					'uninstall' => $this->url->link('extension/analytics/uninstall', 'token=' . $this->session->data['token'] . '&extension=' . $extension, true),
 					'installed' => in_array($extension, $extensions),
 					'store'     => $store_data

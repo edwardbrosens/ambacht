@@ -87,7 +87,7 @@ class ControllerExtensionInstaller extends Controller {
 			$json['overwrite'] = array();
 
 			if (strrchr($this->request->files['file']['name'], '.') == '.xml') {
-				$file = DIR_UPLOAD . $path . '/install.xml';
+				$file = DIR_UPLOAD . $path . '/_install.xml';
 
 				// If xml file copy it to the temporary directory
 				move_uploaded_file($this->request->files['file']['tmp_name'], $file);
@@ -139,7 +139,7 @@ class ControllerExtensionInstaller extends Controller {
 							$zip_name = zip_entry_name($entry);
 
 							// SQL
-							if (substr($zip_name, 0, 11) == 'install.sql') {
+							if (substr($zip_name, 0, 11) == '_install.sql') {
 								$json['step'][] = array(
 									'text' => $this->language->get('text_sql'),
 									'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/sql', 'token=' . $this->session->data['token'], true)),
@@ -148,7 +148,7 @@ class ControllerExtensionInstaller extends Controller {
 							}
 
 							// XML
-							if (substr($zip_name, 0, 11) == 'install.xml') {
+							if (substr($zip_name, 0, 11) == '_install.xml') {
 								$json['step'][] = array(
 									'text' => $this->language->get('text_xml'),
 									'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/xml', 'token=' . $this->session->data['token'], true)),
@@ -157,7 +157,7 @@ class ControllerExtensionInstaller extends Controller {
 							}
 
 							// PHP
-							if (substr($zip_name, 0, 11) == 'install.php') {
+							if (substr($zip_name, 0, 11) == '_install.php') {
 								$json['step'][] = array(
 									'text' => $this->language->get('text_php'),
 									'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/php', 'token=' . $this->session->data['token'], true)),
@@ -373,7 +373,7 @@ class ControllerExtensionInstaller extends Controller {
 			$json['error'] = $this->language->get('error_permission');
 		}
 
-		$file = DIR_UPLOAD . str_replace(array('../', '..\\', '..'), '', $this->request->post['path']) . '/install.sql';
+		$file = DIR_UPLOAD . str_replace(array('../', '..\\', '..'), '', $this->request->post['path']) . '/_install.sql';
 
 		if (!file_exists($file)) {
 			$json['error'] = $this->language->get('error_file');
@@ -418,7 +418,7 @@ class ControllerExtensionInstaller extends Controller {
 			$json['error'] = $this->language->get('error_permission');
 		}
 
-		$file = DIR_UPLOAD . str_replace(array('../', '..\\', '..'), '', $this->request->post['path']) . '/install.xml';
+		$file = DIR_UPLOAD . str_replace(array('../', '..\\', '..'), '', $this->request->post['path']) . '/_install.xml';
 
 		if (!file_exists($file)) {
 			$json['error'] = $this->language->get('error_file');
@@ -514,7 +514,7 @@ class ControllerExtensionInstaller extends Controller {
 			$json['error'] = $this->language->get('error_permission');
 		}
 
-		$file = DIR_UPLOAD . str_replace(array('../', '..\\', '..'), '', $this->request->post['path']) . '/install.php';
+		$file = DIR_UPLOAD . str_replace(array('../', '..\\', '..'), '', $this->request->post['path']) . '/_install.php';
 
 		if (!file_exists($file)) {
 			$json['error'] = $this->language->get('error_file');

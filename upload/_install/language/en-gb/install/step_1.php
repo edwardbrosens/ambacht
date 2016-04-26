@@ -43,7 +43,7 @@ $_['text_terms']     = '<h3>GNU GENERAL PUBLIC LICENSE</h3>
   authors\' sake, the GPL requires that modified versions be marked as
   changed, so that their problems will not be attributed erroneously to
   authors of previous versions.</p>
-<p>Some devices are designed to deny users access to install or run
+<p>Some devices are designed to deny users access to _install or run
   modified versions of the software inside them, although the manufacturer
   can do so.  This is fundamentally incompatible with the aim of
   protecting users\' freedom to change the software.  The systematic
@@ -111,7 +111,7 @@ $_['text_terms']     = '<h3>GNU GENERAL PUBLIC LICENSE</h3>
   (if any) on which the executable work runs, or a compiler used to
   produce the work, or an object code interpreter used to run it.</p>
 <p>The &ldquo;Corresponding Source&rdquo; for a work in object code form means all
-  the source code needed to generate, install, and (for an executable
+  the source code needed to generate, _install, and (for an executable
   work) run the object code and to modify the work, including scripts to
   control those activities.  However, it does not include the work\'s
   System Libraries, or general-purpose tools or generally available free
@@ -262,7 +262,7 @@ $_['text_terms']     = '<h3>GNU GENERAL PUBLIC LICENSE</h3>
   commercial, industrial or non-consumer uses, unless such uses represent
   the only significant mode of use of the product.</p>
 <p>&ldquo;Installation Information&rdquo; for a User Product means any methods,
-  procedures, authorization keys, or other information required to install
+  procedures, authorization keys, or other information required to _install
   and execute modified versions of a covered work in that User Product from
   a modified version of its Corresponding Source.  The information must
   suffice to ensure that the continued functioning of the modified object
@@ -275,7 +275,7 @@ $_['text_terms']     = '<h3>GNU GENERAL PUBLIC LICENSE</h3>
   fixed term (regardless of how the transaction is characterized), the
   Corresponding Source conveyed under this section must be accompanied
   by the Installation Information.  But this requirement does not apply
-  if neither you nor any third party retains the ability to install
+  if neither you nor any third party retains the ability to _install
   modified object code on the User Product (for example, the work has
   been installed in ROM).</p>
 <p>The requirement to provide Installation Information does not include a

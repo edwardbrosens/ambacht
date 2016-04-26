@@ -14,7 +14,7 @@ class ControllerCommonColumnLeft extends Controller {
 		if (isset($this->request->get['route'])) {
 			$data['route'] = $this->request->get['route'];
 		} else {
-			$data['route'] = 'install/step_1';
+			$data['route'] = '_install/step_1';
 		}
 		
 		// Language
@@ -35,7 +35,7 @@ class ControllerCommonColumnLeft extends Controller {
 		}
 
 		if (!isset($this->request->get['route'])) {
-			$data['redirect'] = $this->url->link('install/step_1');
+			$data['redirect'] = $this->url->link('_install/step_1');
 		} else {
 			$url_data = $this->request->get;
 
@@ -63,7 +63,7 @@ class ControllerCommonColumnLeft extends Controller {
 		if (isset($this->request->post['redirect'])) {
 			$this->response->redirect($this->request->post['redirect']);
 		} else {
-			$this->response->redirect($this->url->link('install/step_1'));
+			$this->response->redirect($this->url->link('_install/step_1'));
 		}
 	}	
 }

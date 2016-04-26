@@ -1,7 +1,7 @@
 <?php
 class ControllerInstallStep4 extends Controller {
 	public function index() {
-		$this->language->load('install/step_4');
+		$this->language->load('_install/step_4');
 		
 		$this->document->setTitle($this->language->get('heading_title'));
 
@@ -51,6 +51,6 @@ class ControllerInstallStep4 extends Controller {
 		$data['footer'] = $this->load->controller('common/footer');
 		$data['header'] = $this->load->controller('common/header');
 
-		$this->response->setOutput($this->load->view('install/step_4', $data));
+		$this->response->setOutput($this->load->view('_install/step_4', $data));
 	}
 }

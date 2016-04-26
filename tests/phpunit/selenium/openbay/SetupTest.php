@@ -61,7 +61,7 @@ class OpenbaySetupTest extends OpenCartSeleniumTest {
 
 			$this->waitToLoad('OpenBay Pro', 50000);
 
-			$this->byCssSelector('#button-install-ebay')->click();
+			$this->byCssSelector('#button-_install-ebay')->click();
 
 			$this->waitToLoad('OpenBay Pro', 50000);
 

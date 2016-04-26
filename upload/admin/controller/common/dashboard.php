@@ -24,8 +24,8 @@ class ControllerCommonDashboard extends Controller {
 			'href' => $this->url->link('common/dashboard', 'token=' . $this->session->data['token'], true)
 		);
 
-		// Check install directory exists
-		if (is_dir(dirname(DIR_APPLICATION) . '/install')) {
+		// Check _install directory exists
+		if (is_dir(dirname(DIR_APPLICATION) . '/_install')) {
 			$data['error_install'] = $this->language->get('error_install');
 		} else {
 			$data['error_install'] = '';

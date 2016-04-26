@@ -6,7 +6,7 @@ define('ADMIN_PASSWORD', '');
 
 define('CONFIG_ADMIN', __DIR__ . '/../../upload/admin/config.php');
 define('CONFIG_CATALOG', __DIR__ . '/../../upload/config.php');
-define('SQL_FILE', __DIR__ . '/../../upload/install/opencart.sql');
+define('SQL_FILE', __DIR__ . '/../../upload/_install/opencart.sql');
 
 // Settings for Amazon Payments' Selenium tests
 define('AMAZON_PAYMENTS_SELLER_ID', '');

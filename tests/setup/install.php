@@ -1,6 +1,6 @@
 <?php
 /**
- * Demo install file allows for config and module settings to be set-up using a single setup file.
+ * Demo _install file allows for config and module settings to be set-up using a single setup file.
  *
  * Designed to be used with build automation services like Jenkins to save time with demo installation sites, no need
  * for admin to login to the store and update settings or installing modules manually for each test build.
@@ -91,7 +91,7 @@ foreach ($module_settings as $module_settings_type => $module_settings_data) {
 
 		$loader->model('user/user_group');
 
-		$loader->controller($module_settings_type . '/' . $module_key . '/install');
+		$loader->controller($module_settings_type . '/' . $module_key . '/_install');
 
 		editSetting($module_key, $module_data);
 	}
