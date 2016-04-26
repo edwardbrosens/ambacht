@@ -47,10 +47,10 @@
         <?php echo $language; ?>
         <div class="header-links nav pull-right">
             <ul class="list">
-                <li><a href="">zo werkt het</a></li>
-                <li><a href="">assortiment</a></li>
-                <li><a href="">bestellen</a></li>
-                <li><a href="">contact</a></li>
+                <li><a href="/zo-werkt-het">zo werkt het</a></li>
+                <li><a href="/assortiment">assortiment</a></li>
+                <li><a href="/bestellen">bestellen</a></li>
+                <li><a href="contact_us">contact</a></li>
             </ul>
         </div>
         <div id="top-links" class="nav pull-right">
@@ -98,7 +98,7 @@
     <img src="image/bg_header.jpg" alt="" class="img-responsive">
 </div>
 <header>
-    <!--<div class="container hide-home">
+    <div class="container hide-home">
         <div class="row">
             <div class="col-sm-4">
             </div>
@@ -106,7 +106,7 @@
             </div>
             <div class="col-sm-3"><?php echo $cart; ?></div>
         </div>
-    </div>-->
+    </div>
 </header>
 <?php if ($categories) { ?>
 <div class="container">

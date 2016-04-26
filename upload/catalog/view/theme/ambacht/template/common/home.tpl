@@ -32,13 +32,13 @@
 </div>
 <div class="choose-container">
   <div class="container">
-    <div class="col-sm-4 col-xs-12"><img class="img-responsive" src="catalog/view/theme/ambacht/image/werkfruit.png" alt="" width="350" height="260" />
+    <div class="col-sm-4 col-xs-12"><a href="/assortiment/groenten-en-fruit"><img class="img-responsive" src="catalog/view/theme/ambacht/image/werkfruit.png" alt="" width="350" height="260" /></a>
       <p style="text-align: center;"><a>WERKFRUIT</a></p>
     </div>
-    <div class="col-sm-4 col-xs-12"><img class="img-responsive" src="catalog/view/theme/ambacht/image/bedrijfslunch.jpg" alt="" width="350" height="260" />
+    <div class="col-sm-4 col-xs-12"><a href="/assortiment"><img class="img-responsive" src="catalog/view/theme/ambacht/image/bedrijfslunch.jpg" alt="" width="350" height="260" /></a>
       <p style="text-align: center;"><a>BEDRIJFSLUNCH</a></p>
     </div>
-    <div class="col-sm-4 col-xs-12"><img class="img-responsive" src="catalog/view/theme/ambacht/image/salades.png" alt="" width="350" height="260" />
+    <div class="col-sm-4 col-xs-12"><a href="/assortiment/groenten-en-fruit"><img class="img-responsive" src="catalog/view/theme/ambacht/image/salades.png" alt="" width="350" height="260" /></a>
       <p style="text-align: center;"><a>SALADES</a></p>
     </div>
   </div>
