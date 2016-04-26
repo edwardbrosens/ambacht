@@ -49,8 +49,8 @@
             <ul class="list">
                 <li><a href="/zo-werkt-het">zo werkt het</a></li>
                 <li><a href="/assortiment">assortiment</a></li>
-                <li><a href="/bestellen">bestellen</a></li>
-                <li><a href="contact_us">contact</a></li>
+                <li><a href="/index.php?route=checkout/checkout">bestellen</a></li>
+                <li><a href="/contact">contact</a></li>
             </ul>
         </div>
         <div id="top-links" class="nav pull-right">
