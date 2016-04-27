@@ -1168,7 +1168,7 @@ aside .list-group {
 }
 .contact-container textarea::-webkit-input-placeholder {
     text-indent: 10px;
-    
+
 }
 
 .contact-container textarea {
@@ -1186,6 +1186,104 @@ a {
 
 footer a {
     color: white !important;
+}
+
+.basket {
+    height: 130px;
+    background-image: url('../image/basket.jpg');
+    background-repeat:no-repeat;
+    background-position: center right;
+    background-size: 150px auto;
+}
+
+footer {
+    background-color: #45aba3;
+    min-height: 300px;
+}
+
+footer ul {
+    padding: 0;
+}
+
+.ft {
+    background-position: 0px center;
+    background-repeat: no-repeat;
+    list-style-type:none;
+    height: 30px;
+    text-indent: 40px;
+    line-height: 30px;
+    font-family: 'shree';
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.ft-facebook {
+    background-image: url('../image/facebook.png');
+}
+.ft-twitter {
+    background-image: url('../image/twitter.png');
+}
+
+.wortel {
+    background-image: url('../image/wortel.png');
+    background-position: center center;
+    min-height: 211px;
+    background-repeat:no-repeat;
+}
+
+address {
+    text-align: center;
+    font-family: 'shree';
+    font-size: 14px;
+    color: white;
+}
+address h3 {
+    margin-top: 135px;
+    font-family: 'shree';
+    -webkit-font-smoothing: antialiased;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: lighter;
+}
+
+.address {
+    position: relative;
+    min-height: 150px;
+}
+.address .footer-logo {
+    position: absolute;
+    top: -105px;
+    left: 0;
+    width: 300px;
+    height: 123px;
+    background-image: url('../image/logo-bottom.png');
+    background-repeat:no-repeat;
+    background-position: center center;
+}
+
+.newsletter h3 {
+    font-family: 'shree';
+    -webkit-font-smoothing: antialiased;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: lighter;
+    margin-top: 30px;
+}
+
+.newsletter {
+    color: white;
+    font-family: 'shree';
+    font-size: 14px;
+}
+
+.newsletter input {
+    font-family: 'shree';
+    margin-bottom: 5px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
 }
 
 

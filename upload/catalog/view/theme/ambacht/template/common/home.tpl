@@ -52,7 +52,7 @@
         </div>
     </div>
   <div class="row">
-      <div class="col-sm-8 col-sm-push-2">
+      <div class="col-sm-8 col-sm-push-2" id="contact">
           <form action="" method="post">
               <div class="col-sm-6">
                   <div class="form-group">

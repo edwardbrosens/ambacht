@@ -1,45 +1,45 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12 basket"></div>
+  </div>
+</div>
 <footer>
   <div class="container">
     <div class="row">
-      <?php if ($informations) { ?>
-      <div class="col-sm-3">
-        <h5><?php echo $text_information; ?></h5>
-        <ul class="list-unstyled">
-          <?php foreach ($informations as $information) { ?>
-          <li><a href="<?php echo $information['href']; ?>"><?php echo $information['title']; ?></a></li>
-          <?php } ?>
-        </ul>
-      </div>
-      <?php } ?>
-      <div class="col-sm-3">
-        <h5><?php echo $text_service; ?></h5>
-        <ul class="list-unstyled">
-          <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
-          <li><a href="<?php echo $return; ?>"><?php echo $text_return; ?></a></li>
-          <li><a href="<?php echo $sitemap; ?>"><?php echo $text_sitemap; ?></a></li>
-        </ul>
-      </div>
-      <div class="col-sm-3">
-        <h5><?php echo $text_extra; ?></h5>
-        <ul class="list-unstyled">
-          <li><a href="<?php echo $manufacturer; ?>"><?php echo $text_manufacturer; ?></a></li>
-          <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-          <li><a href="<?php echo $affiliate; ?>"><?php echo $text_affiliate; ?></a></li>
-          <li><a href="<?php echo $special; ?>"><?php echo $text_special; ?></a></li>
-        </ul>
-      </div>
-      <div class="col-sm-3">
-        <h5><?php echo $text_account; ?></h5>
-        <ul class="list-unstyled">
-          <li><a href="<?php echo $account; ?>"><?php echo $text_account; ?></a></li>
-          <li><a href="<?php echo $order; ?>"><?php echo $text_order; ?></a></li>
-          <li><a href="<?php echo $wishlist; ?>"><?php echo $text_wishlist; ?></a></li>
-          <li><a href="<?php echo $newsletter; ?>"><?php echo $text_newsletter; ?></a></li>
-        </ul>
+    <div class="col-xs-12 col-sm-2">
+      <ul>
+        <li class="ft ft-facebook"><a target="_blank" href="https://www.facebook.com/Het-Ware-Ambacht-966146390147113/">/hetwareambacht</a></li>
+        <li class="ft ft-twitter"><a target="_blank" href="https://twitter.com/hetwareambacht">@hetwareambacht</a></li>
+      </ul>
+    </div>
+    <div class="col-xs-12 col-sm-2 wortel"></div>
+    <div class="col-xs-12 col-sm-4 address">
+      <div class="footer-logo">
+        <address>
+          <h3>Het Ware Ambacht</h3>
+          <p>
+            Binnenhof 23 <br />
+            5141 BW Waalwijk
+          </p>
+          <p>
+            06 - 14382485
+          </p>
+          <p>
+            <a href="mailto:eline@hetwareambaacht.nl">eline@hetwareambaacht.nl</a>
+          </p>
+        </address>
       </div>
     </div>
-    <hr>
-    <p><?php echo $powered; ?></p>
+    <div class="col-xs-12 col-sm-4 newsletter">
+      <h3>Altijd op de hoogte</h3>
+      <p>Vul hieronder je e-mailadres in en blijf op de hoogte van alle aanbiedingen en laatste nieuwtjes.</p>
+      <form action="">
+        <div class="form-group">
+          <input class="form-control" type="text" placeholder="Voornaam">
+          <input class="form-control" type="email" placeholder="E-mailadres">
+        </div>
+      </form>
+    </div>
   </div>
 </footer>
 
