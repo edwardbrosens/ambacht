@@ -32,14 +32,14 @@
 </div>
 <div class="choose-container">
   <div class="container">
-    <div class="col-sm-4 col-xs-12"><a href="/assortiment/fruit"><img class="img-responsive" src="catalog/view/theme/ambacht/image/werkfruit.png" alt="" width="350" height="260" /></a>
-      <p style="text-align: center;"><a>WERKFRUIT</a></p>
+      <div class="col-sm-4 col-xs-12"><a href="/bedrijfslunch"><img class="img-responsive" src="catalog/view/theme/ambacht/image/bedrijfslunch.jpg" alt="" width="350" height="260" /></a>
+          <p style="text-align: center;"><a class="text-uppercase">Bedrijfslunch voor € 3,20 pp</a></p>
+      </div>
+    <div class="col-sm-4 col-xs-12"><a href="/assortiment"><img class="img-responsive" src="catalog/view/theme/ambacht/image/samenstellen.png" alt="" width="350" height="260" /></a>
+      <p style="text-align: center;"><a class="text-uppercase">Zelf Samenstellen</a></p>
     </div>
-    <div class="col-sm-4 col-xs-12"><a href="/bedrijfslunch"><img class="img-responsive" src="catalog/view/theme/ambacht/image/bedrijfslunch.jpg" alt="" width="350" height="260" /></a>
-      <p style="text-align: center;"><a>BEDRIJFSLUNCH</a></p>
-    </div>
-    <div class="col-sm-4 col-xs-12"><a href="/assortiment/salades"><img class="img-responsive" src="catalog/view/theme/ambacht/image/salades.png" alt="" width="350" height="260" /></a>
-      <p style="text-align: center;"><a>SALADES</a></p>
+    <div class="col-sm-4 col-xs-12"><a href="/assortiment/fruit"><img class="img-responsive" src="catalog/view/theme/ambacht/image/salades.png" alt="" width="350" height="260" /></a>
+      <p style="text-align: center;"><a class="text-uppercase">Werkfruit</a></p>
     </div>
   </div>
 </div>

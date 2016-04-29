@@ -41,6 +41,12 @@
       </form>
     </div>
   </div>
+    <div class="row">
+      <div class="col-sm-12 legal">
+        <a href="/algemene-voorwaarden">Algemene Voorwaarden</a> | <a href="/privacy">Privacy</a> | <a href="/bedrijfslunch">Bedrijfslunch € 3,20 pp</a> |
+        <a href="/assortiment">Zelf Samenstellen</a>  | <a href="/fruit">Werkfruit</a> | <a href="/contact">Contact</a>
+      </div>
+    </div>
 </footer>
 
 <!--

@@ -50,7 +50,7 @@
                 <li><a href="/zo-werkt-het">zo werkt het</a></li>
                 <li><a href="/product-info">Product info</a></li>
                 <li><a href="/onze-producten">bestellen</a></li>
-                <li><a href="/#contact">contact</a></li>
+                <li><a href="/contact">contact</a></li>
             </ul>
         </div>
         <div id="top-links" class="nav pull-right">
