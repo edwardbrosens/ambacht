@@ -1,4 +1,32 @@
 <?php echo $header; ?>
+<div class="contact-container">
+  <div class="row">
+    <div class="col-sm-12 call-to-action">
+      <h2>Wil jij en je bedrijf het ware ambacht uitproberen?</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-8 col-sm-push-2" id="contact">
+      <form action="" method="post">
+        <div class="col-sm-6">
+          <div class="form-group">
+            <input class="form-control clean-input" type="text" placeholder="Bedrijf" name="" />
+            <input class="form-control clean-input" type="text" placeholder="Naam" name="" />
+            <input class="form-control clean-input" type="email" placeholder="E-mailadres" name="" />
+            <input class="form-control clean-input" type="text" placeholder="Telefoon" name="" />
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="form-group">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Beschrijving"></textarea>
+            <button type="submit" class="btn btn-primary pull-right">Verzenden</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
 <div class="container">
   <ul class="breadcrumb">
     <?php foreach ($breadcrumbs as $breadcrumb) { ?>

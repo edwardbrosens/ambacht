@@ -48,8 +48,8 @@
         <div class="header-links nav pull-right">
             <ul class="list">
                 <li><a href="/zo-werkt-het">zo werkt het</a></li>
-                <li><a href="/assortiment">assortiment</a></li>
-                <li><a href="/index.php?route=checkout/checkout">bestellen</a></li>
+                <li><a href="/product-info">Product info</a></li>
+                <li><a href="/onze-producten">bestellen</a></li>
                 <li><a href="/#contact">contact</a></li>
             </ul>
         </div>
