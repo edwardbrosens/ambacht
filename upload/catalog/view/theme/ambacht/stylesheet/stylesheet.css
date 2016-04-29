@@ -1028,9 +1028,16 @@ h2.price {
 #menu {
     display: none;
 }
-
 .main-banner {
     position: relative;
+}
+body:not(.common-home) .main-banner {
+    max-height: 198px;
+    overflow: hidden;
+}
+body:not(.common-home) .main-banner img .img-responsive {
+    width: 100%;
+    height: auto;
 }
 
 #search {
