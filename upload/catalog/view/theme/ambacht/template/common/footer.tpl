@@ -25,7 +25,7 @@
             06 - 14382485
           </p>
           <p>
-            <a href="mailto:eline@hetwareambaacht.nl">eline@hetwareambaacht.nl</a>
+            <a href="mailto:eline@hetwareambacht.nl">eline@hetwareambacht.nl</a>
           </p>
         </address>
       </div>
