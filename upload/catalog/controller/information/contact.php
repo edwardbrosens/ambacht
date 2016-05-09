@@ -24,7 +24,7 @@ class ControllerInformationContact extends Controller {
 			$mail->setText($this->request->post['company'].PHP_EOL.PHP_EOL.$this->request->post['enquiry']);
 			$mail->send();
 
-			$this->response->redirect($this->url->link('bedankt'));
+			header('Location: /bedankt');
 		}
 
 		$data['breadcrumbs'] = array();
