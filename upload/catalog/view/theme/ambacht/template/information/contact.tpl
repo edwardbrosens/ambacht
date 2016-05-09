@@ -40,12 +40,12 @@
             <input class="form-control clean-input" type="text" placeholder="Bedrijf" name="company" />
             <input class="form-control clean-input" type="text" placeholder="Naam" name="name" />
             <input class="form-control clean-input" type="email" placeholder="E-mailadres" name="email" />
-            <input class="form-control clean-input" type="text" placeholder="Telefoon" name="enquiry" />
+            <input class="form-control clean-input" type="text" placeholder="Telefoon" name="phone" />
           </div>
         </div>
         <div class="col-sm-6">
           <div class="form-group">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Beschrijving"></textarea>
+            <textarea name="enquiry" id="" cols="30" rows="10" placeholder="Beschrijving"></textarea>
             <button type="submit" class="btn btn-primary pull-right">Verzenden</button>
           </div>
         </div>
