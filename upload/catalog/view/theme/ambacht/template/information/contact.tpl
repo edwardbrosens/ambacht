@@ -1,32 +1,4 @@
 <?php echo $header; ?>
-<div class="contact-container">
-  <div class="row">
-    <div class="col-sm-12 call-to-action">
-      <h2>Wil jij en je bedrijf het ware ambacht uitproberen?</h2>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-sm-8 col-sm-push-2" id="contact">
-      <form action="" method="post">
-        <div class="col-sm-6">
-          <div class="form-group">
-            <input class="form-control clean-input" type="text" placeholder="Bedrijf" name="" />
-            <input class="form-control clean-input" type="text" placeholder="Naam" name="" />
-            <input class="form-control clean-input" type="email" placeholder="E-mailadres" name="" />
-            <input class="form-control clean-input" type="text" placeholder="Telefoon" name="" />
-          </div>
-        </div>
-        <div class="col-sm-6">
-          <div class="form-group">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Beschrijving"></textarea>
-            <button type="submit" class="btn btn-primary pull-right">Verzenden</button>
-          </div>
-        </div>
-      </form>
-    </div>
-  </div>
-</div>
-
 <div class="container">
   <ul class="breadcrumb">
     <?php foreach ($breadcrumbs as $breadcrumb) { ?>
@@ -41,7 +13,53 @@
     <?php } else { ?>
     <?php $class = 'col-sm-12'; ?>
     <?php } ?>
-    <div id="content" class="<?php echo $class; ?>"><?php echo $content_top; ?>
+    <?php echo $column_right; ?></div>
+</div>
+
+<div class="choose-container">
+  <div class="container">
+    <div class="col-sm-12 address-holder">
+      <strong><?php echo $store; ?></strong><br />
+      <?php echo $address; ?>
+    </div>
+  </div>
+</div>
+
+
+<div class="contact-container">
+  <div class="row">
+    <div class="col-sm-12 call-to-action">
+      <h2>Wil jij en je bedrijf het ware ambacht uitproberen?</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-8 col-sm-push-2" id="contact">
+      <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data">
+        <div class="col-sm-6">
+          <div class="form-group">
+            <input class="form-control clean-input" type="text" placeholder="Bedrijf" name="company" />
+            <input class="form-control clean-input" type="text" placeholder="Naam" name="name" />
+            <input class="form-control clean-input" type="email" placeholder="E-mailadres" name="email" />
+            <input class="form-control clean-input" type="text" placeholder="Telefoon" name="enquiry" />
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="form-group">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Beschrijving"></textarea>
+            <button type="submit" class="btn btn-primary pull-right">Verzenden</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+<?php echo $footer; ?>
+
+<!--
+<div id="content" class="<?php echo $class; ?>"><?php echo $content_top; ?>
       <h1><?php echo $heading_title; ?></h1>
       <h3><?php echo $text_location; ?></h3>
       <div class="panel panel-default">
@@ -128,7 +146,9 @@
         <?php } ?>
       </div>
       <?php } ?>
-      <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data" class="form-horizontal">
+
+      <?php echo $content_bottom; ?></div>
+ <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data" class="form-horizontal">
         <fieldset>
           <legend><?php echo $text_contact; ?></legend>
           <div class="form-group required">
@@ -166,7 +186,4 @@
           </div>
         </div>
       </form>
-      <?php echo $content_bottom; ?></div>
-    <?php echo $column_right; ?></div>
-</div>
-<?php echo $footer; ?>
+      -->
