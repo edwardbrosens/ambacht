@@ -10,6 +10,8 @@
       <ul>
         <li class="ft ft-facebook"><a target="_blank" href="https://www.facebook.com/Het-Ware-Ambacht-966146390147113/">/hetwareambacht</a></li>
         <li class="ft ft-twitter"><a target="_blank" href="https://twitter.com/hetwareambacht">@hetwareambacht</a></li>
+        <li class="ft nmbr"><a target="_blank" href>KvK 64770230</a></li>
+        <li class="ft nmbr"><a target="_blank" href>BTW NL855830864B01</a></li>
       </ul>
     </div>
     <div class="col-xs-12 col-sm-2 wortel"></div>
