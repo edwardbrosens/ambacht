@@ -1,6 +1,6 @@
 <?php
 // Heading
-$_['heading_title']      = 'Onder rembours';
+$_['heading_title']      = 'Op factuur';
 
 // Text
 $_['text_payment']       = 'Betaling';
