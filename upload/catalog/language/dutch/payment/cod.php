@@ -1,3 +1,3 @@
 <?php
 // Text
-$_['text_title'] = 'Onder rembours';
+$_['text_title'] = 'Op factuur';
