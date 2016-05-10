@@ -1308,4 +1308,8 @@ address h3 {
     text-align: center;
 }
 
+.delivery {
+    max-width: 200px
+}
+
 

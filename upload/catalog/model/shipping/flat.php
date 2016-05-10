@@ -34,7 +34,6 @@ class ModelShippingFlat extends Model {
 				'error'      => false
 			);
 		}
-
 		return $method_data;
 	}
 }

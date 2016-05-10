@@ -23,6 +23,17 @@
 <?php } ?>
 <?php } ?>
 <?php } ?>
+<p>
+  <input type="text" name="delivery" class="form-control delivery" placeholder="Bezorgdatum" />
+  <script>
+    $(document).ready(function(){
+      $('[name="delivery"]').datepicker();
+      $('#button-shipping-method').on('click', function() {
+        $('[name="comment"]').val("Bezorgen op: " + $('[name="delivery"]').val() + "\r\n" + $('[name="comment"]').val());
+      });
+    });
+  </script>
+</p>
 <p><strong><?php echo $text_comments; ?></strong></p>
 <p>
   <textarea name="comment" rows="8" class="form-control"><?php echo $comment; ?></textarea>

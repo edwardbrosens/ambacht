@@ -125,6 +125,10 @@ class ControllerCheckoutShippingMethod extends Controller {
 			$this->session->data['shipping_method'] = $this->session->data['shipping_methods'][$shipping[0]]['quote'][$shipping[1]];
 
 			$this->session->data['comment'] = strip_tags($this->request->post['comment']);
+
+			if(isset($this->request->post['delivery'])) {
+				$this->session->data['comment'] = 'Bezorgdatum: '.$this->request->post['delivery'].PHP_EOL.$this->session->data['comment'];
+			}
 		}
 
 		$this->response->addHeader('Content-Type: application/json');
