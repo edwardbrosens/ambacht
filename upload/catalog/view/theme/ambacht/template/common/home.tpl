@@ -7,11 +7,19 @@
       <p>Samen met lokale ambachtslieden stellen wij de allerlekkerste bedrijfslunch samen. Onze producten komen direct van de warme bakker, slager en zuivelboer en zijn echt vers, zoveel mogelijk van het seizoen en met zorg en aandacht gemaakt!</p>
       Samen met lokale ambachtslieden stellen wij de allerlekkerste bedrijfslunch samen. Onze producten komen direct van de warme bakker, slager en zuivelboer en zijn echt vers, zoveel mogelijk van het seizoen en met zorg en aandacht gemaakt!
 
-      <h2>Hoe werkt het?</h2>
-
-      Afhankelijk van jullie specifieke wensen stellen wij de krat met lunchproducten samen. Vervolgens bezorgen wij deze op afgesproken tijden op kantoor. Bestellen is altijd vrijblijvend, dus geen abonnement. Voor € 3,20 per persoon genieten jullie al van een zeer uitgebreide en gezonde lunch. De hoeveelheid en soort producten stellen we wekelijks met elkaar af.
-
-      Natuurlijk is de bezorging gratis.
+        <h2>Hoe werkt het<br></h2>
+        <p>Wij leveren de lekkerste en gezondste bedrijfslunch in de regio Den Bosch-Waalwijk. Je krijgt van ons geen
+            kant en klare broodjes, maar een box met verse lunchproducten van boeren en ambachtslieden uit de buurt.&nbsp;
+            Alleen nog de tafel te dekken en de collega’s kunnen aanschuiven voor de gezamenlijke lunch. <br>&nbsp;<br>Bestellen
+            kan gemakkelijk via de webshop. Hiervoor hebben we twee mogelijkheden. <br>&nbsp;<br></p>
+        <h2>Ik wil graag verrast worden</h2>
+        <p><br>Dan stellen wij jullie box met lunchproducten samen. Voor € 3,20 (ex btw) per persoon genieten jullie dan
+            al van een zeer uitgebreide en gezonde lunch.<br><br></p>
+        <h2>Ik wil zelf bepalen welke producten er in de lunch box komen</h2>
+        <p><br>Kies dan bij de bestelfunctie op deze website voor ‘zelf samenstellen’ en zoek de producten uit die jij
+            het lekkerste vindt.<br><br><br>Bestellen is altijd vrijblijvend, dus geen abonnement en de bezorging* is
+            gratis.<br>&nbsp;<br><font color="#9C9C94"><i>Momenteel bezorgen wij alleen in de regio Den
+                    Bosch-Waalwijk</i></font></p>
 
       <h2>Kennismaken?</h2>
 
