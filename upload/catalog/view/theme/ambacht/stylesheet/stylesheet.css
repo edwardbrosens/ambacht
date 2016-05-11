@@ -1312,4 +1312,6 @@ address h3 {
     max-width: 200px
 }
 
-
+body {
+    font-family: 'shree' !important;
+}
