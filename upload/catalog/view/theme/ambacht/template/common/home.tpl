@@ -4,8 +4,8 @@
   <div class="row">
     <div class="col-sm-4"><img style="float: left; vertical-align: top; margin-right: 40px !important; margin-bottom: 10px;" src="catalog/view/theme/ambacht/image/bakker.jpg" alt="" width="250" height="356"></div>
     <div class="col-sm-7 col-sm-push-1 main-text">
-      <p>Samen met lokale ambachtslieden stellen wij de allerlekkerste bedrijfslunch samen. Onze producten komen direct van de warme bakker, slager en zuivelboer en zijn echt vers, zoveel mogelijk van het seizoen en met zorg en aandacht gemaakt!</p>
-      Samen met lokale ambachtslieden stellen wij de allerlekkerste bedrijfslunch samen. Onze producten komen direct van de warme bakker, slager en zuivelboer en zijn echt vers, zoveel mogelijk van het seizoen en met zorg en aandacht gemaakt!
+      <p> Samen met lokale ambachtslieden stellen wij de allerlekkerste bedrijfslunch samen. Onze producten komen direct van de warme bakker, slager en zuivelboer en zijn echt vers, zoveel mogelijk van het seizoen en met zorg en aandacht gemaakt!</p>
+
 
         <h2>Hoe werkt het<br></h2>
         <p>Wij leveren de lekkerste en gezondste bedrijfslunch in de regio Den Bosch-Waalwijk. Je krijgt van ons geen
