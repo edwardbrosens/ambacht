@@ -38,7 +38,7 @@
     <div class="col-sm-4 col-xs-12"><a href="/assortiment"><img class="img-responsive" src="catalog/view/theme/ambacht/image/samenstellen.png" alt="" width="350" height="260" /></a>
       <p style="text-align: center;"><a class="text-uppercase">Zelf Samenstellen</a></p>
     </div>
-    <div class="col-sm-4 col-xs-12"><a href="/assortiment/fruit"><img class="img-responsive" src="catalog/view/theme/ambacht/image/salades.png" alt="" width="350" height="260" /></a>
+    <div class="col-sm-4 col-xs-12"><a href="/assortiment/fruit"><img class="img-responsive" src="catalog/view/theme/ambacht/image/werkfruit.png" alt="" width="350" height="260" /></a>
       <p style="text-align: center;"><a class="text-uppercase">Werkfruit</a></p>
     </div>
   </div>
