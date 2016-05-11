@@ -52,7 +52,7 @@
         <div class="header-links nav pull-right">
             <ul class="list">
                 <li><a href="/zo-werkt-het">zo werkt het</a></li>
-                <li><a href="/product-info">product info</a></li>
+                <!--<li><a href="/product-info">product info</a></li>-->
                 <li><a href="/onze-producten">bestellen</a></li>
                 <li><a href="/contact">contact</a></li>
             </ul>
