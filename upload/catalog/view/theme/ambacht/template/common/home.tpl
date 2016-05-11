@@ -32,7 +32,7 @@
 </div>
 <div class="choose-container">
   <div class="container">
-      <div class="col-sm-4 col-xs-12"><a href="/bedrijfslunch"><img class="img-responsive" src="catalog/view/theme/ambacht/image/bedrijfslunch.jpg" alt="" width="350" height="260" /></a>
+      <div class="col-sm-4 col-xs-12"><a href="/bedrijfslunch"><img class="img-responsive" src="catalog/view/theme/ambacht/image/bedrijfslunch_.jpg" alt="" width="350" height="260" /></a>
           <p style="text-align: center;"><a class="text-uppercase">Bedrijfslunch voor € 3,20 pp</a></p>
       </div>
     <div class="col-sm-4 col-xs-12"><a href="/assortiment"><img class="img-responsive" src="catalog/view/theme/ambacht/image/samenstellen.png" alt="" width="350" height="260" /></a>
