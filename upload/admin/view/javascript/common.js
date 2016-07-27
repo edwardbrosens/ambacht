@@ -112,6 +112,8 @@ $(document).ready(function() {
 		$(element).summernote({
 			disableDragAndDrop: true,
 			height: 300,
+			fontNames: ["shree","Arial", "Arial Black", "Comic Sans MS", "Courier New", "Helvetica Neue", "Helvetica", "Impact", "Lucida Grande", "Tahoma", "Times New Roman", "Verdana"],
+			fontNamesIgnoreCheck: ["shree","Arial", "Arial Black", "Comic Sans MS", "Courier New", "Helvetica Neue", "Helvetica", "Impact", "Lucida Grande", "Tahoma", "Times New Roman", "Verdana"],
 			toolbar: [
 				['style', ['style']],
 				['font', ['bold', 'underline', 'clear']],

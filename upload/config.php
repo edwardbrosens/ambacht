@@ -1,9 +1,9 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://dev.oc/');
+define('HTTP_SERVER', 'http://hetwareambacht.nl/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://dev.oc/');
+define('HTTPS_SERVER', 'http://hetwareambacht.nl/');
 
 // DIR
 define('DIR_APPLICATION', '/Users/edwardbrosens/websites/ambacht/upload/catalog/');

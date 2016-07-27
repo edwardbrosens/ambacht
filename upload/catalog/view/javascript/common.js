@@ -122,6 +122,8 @@ $(document).ready(function() {
 	// tooltips on hover
 	$('[data-toggle=\'tooltip\']').tooltip({container: 'body'});
 
+	$('.row').has('[for="input-sort"]').not(':has(aside)').addClass('hide-on-mobile');
+
 	// Makes tooltips work on ajax generated content
 	$(document).ajaxStop(function() {
 		$('[data-toggle=\'tooltip\']').tooltip({container: 'body'});
