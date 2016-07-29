@@ -1024,9 +1024,15 @@ h2.price {
         height: 50px;
         width: auto;
     }
-    .breadcrumb li {
-        background: #eee;
+    .breadcrumb li, .breadcrumb > li {
+        background: #333;
         padding: 3px 5px 1px 5px;
+        text-shadow: none !important;
+        color: white !important;
+    }
+    .breadcrumb li a, .breadcrumb li a li, .breadcrumb > li, .breadcrumb li a i {
+        color: white !important;
+        text-shadow: none !important;
     }
     #top {
         display: none;
