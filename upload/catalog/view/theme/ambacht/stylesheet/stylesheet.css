@@ -786,7 +786,7 @@ h2.price {
 
   #logo img {
     width: 100%; } }
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 767px) {
   #logo {
     width: 100%;
     max-width: 70px;
@@ -987,6 +987,12 @@ footer ul {
 
 .ft-twitter {
   background-image: url("../image/twitter.png"); }
+
+.ft-android {
+  background-image: url("../image/playstore.jpg"); }
+
+.ft-ios {
+  background-image: url("../image/appstore.png"); }
 
 .wortel {
   background-image: url("../image/wortel.png");

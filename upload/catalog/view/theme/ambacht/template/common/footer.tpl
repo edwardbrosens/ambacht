@@ -10,6 +10,8 @@
       <ul>
         <li class="ft ft-facebook"><a target="_blank" href="https://www.facebook.com/Het-Ware-Ambacht-966146390147113/">/hetwareambacht</a></li>
         <li class="ft ft-twitter"><a target="_blank" href="https://twitter.com/hetwareambacht">@hetwareambacht</a></li>
+        <li class="ft ft-android"><a target="_blank" href="https://play.google.com/store/apps/details?id=net.appsky.pe.app574ddaf520ef6">Android</a></li>
+        <li class="ft ft-ios"><a target="_blank" href="https://itunes.apple.com/nl/app/het-ware-ambacht/id1120936952?mt=8">iPhone/iPad</a></li>
         <li class="ft nmbr"><a target="_blank" href>KvK 64770230</a></li>
         <li class="ft nmbr"><a target="_blank" href>BTW NL855830864B01</a></li>
       </ul>
@@ -21,7 +23,10 @@
           <h3>Het Ware Ambacht</h3>
           <p>
             Binnenhof 23 <br />
-            5141 BW Waalwijk
+            5141 BW Waalwijk <br>
+            <br >
+            NS Plein 5<br>
+            5014 DA Tilburg
           </p>
           <p>
             06 - 14382485
