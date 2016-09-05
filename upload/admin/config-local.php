@@ -1,11 +1,11 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://dev.oc/admin/');
-define('HTTP_CATALOG', 'http://dev.oc/');
+define('HTTP_SERVER', 'http://dev.ambacht/admin/');
+define('HTTP_CATALOG', 'http://dev.ambacht/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://dev.oc/admin/');
-define('HTTPS_CATALOG', 'http://dev.oc/');
+define('HTTPS_SERVER', 'http://dev.ambacht/admin/');
+define('HTTPS_CATALOG', 'http://dev.ambacht/');
 
 // DIR
 define('DIR_APPLICATION', '/Users/edwardbrosens/websites/ambacht/upload/admin/');
